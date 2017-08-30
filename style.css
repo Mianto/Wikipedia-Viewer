@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|PT+Sans');
+li{
+  list-style-type: none;
+  color:black;
+  background-color: #A0A0A0;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom:2px;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:15px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#display{
+  display:flex;
+  flex-direction: column;
+}
+body{
+  background-color: #202020;
+}
+#searchBar{
+  display:flex;
+  justify-content:center;
+}
+li:hover{
+  box-shadow: -4px 0px 0px 0px orange;
+}
+
+a{
+  text-decoration:none;
+  font-size:20px;
+  font-family: 'Droid Serif', serif;
+}
+p{
+  font-size:0.8em;
+  color:black;
+
+}
+#random a{
+  font-size: 14px;
+  display:flex;
+  justify-content:center;
+  margin-bottom:5px;
+  color:orange;
+}
